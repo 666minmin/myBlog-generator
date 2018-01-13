@@ -37,3 +37,16 @@ hexo生成博客网站如何部署到github上面
 5、hexo clean
 6、hexo generate
 7、hexo deploy
+
+网站源码如何部署到github上面
+1、在github上面创建空的仓库
+2、在网站源目录
+echo "# yyyy" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:666minmin/yyyy.git
+git push -u origin master
+3、git add .
+4、git commit  -m "提交信息"
+5、git push origin master
